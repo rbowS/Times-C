@@ -1,6 +1,6 @@
-# cuKshape
+# gTSC
 
-cuKshape is a GPU-accelerated  k-Shape time series clustering algorithm.
+gTSC is a GPU-accelerated  k-Shape time series clustering algorithm.
 
 # Installation
 
@@ -73,7 +73,7 @@ Description of the arguments:
 
 #### Abstract
 
-As a basic structure of time series analysis, time series clustering has been widely used in many fields, but due to the high heterogeneity of time series data, it can not be simply regarded as a high-dimensional vector. Two time series often need some alignment method in the process of similarity comparison. However, alignment between sequences is often a time-consuming process. For example, when we use dynamic time warping as a sequence alignment algorithm and when the length of time series is greater than 1000, a single iteration in the clustering process may take hundreds to tens of thousands of seconds, while the entire clustering cycle often requires dozens of iterations. So far, the state-of-art time series clustering algorithm k-Shape provides a high accuracy and scalability for time series clustering, although the k-Shape algorithm has a relative lower computation cost than other time series clustering algorithms. However, when facing large-scale data, it still needs a long time to execute. In this paper, we propose an efficient parallel k-Shape algorithm implementation, named cuKshape, it can significantly reduce the time cost of clustering large amounts of high-dimensional time series data. Experiments show that our parallel k-Shape algorithm achieves a speedup of 160*×*.
+As a basic structure of time series analysis, time series clustering has been widely used in many fields, but due to the high heterogeneity of time series data, it can not be simply regarded as a high-dimensional vector. Two time series often need some alignment method in similarity comparison. However, alignment between sequences is often a time-consuming process. For example, when using dynamic time warping as a sequence alignment algorithm and if the length of time series is greater than 1000, a single iteration in the clustering process may take hundreds to tens of thousands of seconds, while the entire clustering cycle often requires dozens of iterations. So far, the state-of-art time series clustering algorithm k-Shape provides high accuracy and scalability for time series clustering, although the k-Shape algorithm has a relatively lower computation cost than other time series clustering algorithms. However, when facing large-scale data, it still needs a long time to execute. In this paper, we propose an efficient parallel k-Shape algorithm implementation named gTSC. It can significantly reduce the time cost of clustering large amounts of high-dimensional time series data. Experiments show that our parallel k-Shape algorithm achieves a speedup of 160x.
 
 #### Citation
 
