@@ -56,7 +56,7 @@ cd test
 ```
 
 ```
-python original_test.py /path/to/dataset k flag
+python testkshape.py /path/to/dataset k flag
 ```
 
 ```
