@@ -20,11 +20,11 @@ Datasets can be obtained from the following websites:
 
 k-Shape algorithm can be obtained from the following websites:
 
-[[Welcome to the UCR Time Series Classification/Clustering Page](https://www.cs.ucr.edu/~eamonn/time_series_data/)](https://github.com/TheDatumOrg/kshape-python)
+[https://github.com/TheDatumOrg/kshape-python]
 
 tslearn algorithm can be obtained from the following websites:
 
-[[Time Series Classification Website](http://www.timeseriesclassification.com/dataset.php)](https://github.com/tslearn-team/tslearn)
+[https://github.com/tslearn-team/tslearn]
 
 ## Times-C GPU
 ### Compilation
