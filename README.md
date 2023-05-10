@@ -84,7 +84,7 @@ Time-series analysis has appeared in many field, such as biology, astronomy, met
 #### Citation
 
 ```
-@article{cuKshape,
+@article{Times-C,
 	author = {Xun Wang , Ruibao Song , Junmin Xiao , Tong Li, and Xueqi Li}, 
 	title = {Accelerating k-Shape Time Series Clustering Algorithm Using GPU},
 	journal = {},
