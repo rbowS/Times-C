@@ -31,6 +31,10 @@ make
 Run the code using the following command:
 
 ```
+cd bin
+```
+
+```
 ./test -d devNum /path/to/dataset k flag
 ```
 
@@ -45,7 +49,7 @@ Description of the arguments:
 ## Times-C CPU
 ### Execution
 ```
-cd test
+cd V2/test
 ```
 
 ```
