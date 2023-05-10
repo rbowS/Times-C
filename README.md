@@ -35,7 +35,7 @@ tslearn algorithm can be obtained from the following websites:
 Compile the code using the following command:
 
 ```
-cd V2
+cd Code
 make
 ```
 
@@ -62,7 +62,7 @@ Description of the arguments:
 ## Times-C CPU
 ### Execution
 ```
-cd V2/test
+cd Code/test
 ```
 
 ```
