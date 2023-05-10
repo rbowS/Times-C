@@ -18,7 +18,7 @@ void labeled_process(string file_path,string name)
     int mat_rows,mat_cols;
     types *mat = readFile<types>(file_path, label, mat_rows, mat_cols);
     cout<<"mat_rows"<<mat_rows<<" "<<"mat_cols"<<mat_cols<<endl;
-    int iternum = 10;
+    int iternum = 20;
     int iternum2 = iternum;
     
     auto maxPosition = max_element(label.begin(), label.end());
@@ -77,7 +77,7 @@ void unlabeled_process(string file_path, const int k, string name)
     types *mat = read_unlabeled_File<types>(file_path, mat_rows, mat_cols);
     
     cout<<"mat_rows"<<mat_rows<<" "<<"mat_cols"<<mat_cols<<endl;
-    int iternum = 10;
+    int iternum = 20;
     int iternum2 = iternum;
 
     types *d_mat;

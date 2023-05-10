@@ -322,7 +322,7 @@ def labeled_process(filename):
     idx,centers,iternum = kshape(data, k)
     #print("centers",centers)
     Path=os.path.dirname(os.getcwd())
-    np.savetxt(Path+"/out/timesC_cpu.txt", idx, delimiter=",", fmt='%.0f')
+    np.savetxt(Path+"/out/timesC.txt", idx, delimiter=",", fmt='%.0f')
 
 
 #@count_info
@@ -340,7 +340,7 @@ def unlabeled_process(filename, k):
     idx,centers,iternum = kshape(mat, k)
     #print("centers",centers)
     Path=os.path.dirname(os.getcwd())
-    np.savetxt(Path+"/out/timesC_cpu.txt", idx, delimiter=",", fmt='%.0f')
+    np.savetxt(Path+"/out/timesC.txt", idx, delimiter=",", fmt='%.0f')
 
 
 
