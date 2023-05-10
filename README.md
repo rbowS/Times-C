@@ -16,6 +16,16 @@ Datasets can be obtained from the following websites:
 
 [Time Series Classification Website](http://www.timeseriesclassification.com/dataset.php)
 
+### k-Shape & ts-learn algorithm
+
+k-Shape can be obtained from the following websites:
+
+[[Welcome to the UCR Time Series Classification/Clustering Page](https://www.cs.ucr.edu/~eamonn/time_series_data/)](https://github.com/TheDatumOrg/kshape-python)
+
+ts-learn can be obtained from the following websites:
+
+[[Time Series Classification Website](http://www.timeseriesclassification.com/dataset.php)](https://github.com/tslearn-team/tslearn)
+
 ## Times-C GPU
 ### Compilation
 
