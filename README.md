@@ -16,6 +16,7 @@ Datasets can be obtained from the following websites:
 
 [Time Series Classification Website](http://www.timeseriesclassification.com/dataset.php)
 
+## Times-C GPU
 ### Compilation
 
 Compile the code using the following command:
@@ -41,26 +42,14 @@ Description of the arguments:
 - flag: Whether the first column of the specified dataset is a label. If the first column is not a label, set it to 1, otherwise set it to 0. The first column of UCR database is a label, while the first column of UCR and UAE databases is not a label
 - Example: `./test -d 0 ../data/InsectSound/InsectSound_TRAIN 10 1`
 
-### Compare with other algorithms
-
-Install tslearn:
-
-```
-python -m pip install tslearn
-```
-
-Run the code using the following command:
-
+## Times-C CPU
+### Execution
 ```
 cd test
 ```
 
 ```
-python testkshape.py /path/to/dataset k flag
-```
-
-```
-python tslearn_test.py /path/to/dataset k flag
+python test_timesC.py /path/to/dataset k flag
 ```
 
 Description of the arguments:
