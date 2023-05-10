@@ -9,7 +9,7 @@
 To install CUDA toolkit please use [this link](https://developer.nvidia.com/cuda-downloads).
 
 ### Complier
-Recommended g++ compiler supporting c++ 14 or above
+It is recommended to use a g++ compiler that supports C++14 or above. 
 
 ### Dataset
 
