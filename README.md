@@ -48,7 +48,7 @@ cd bin
 ```
 
 ```
-./test -d devNum /path/to/dataset k flag
+./test -d devNum /path/to/dataset k flag init_chose
 ```
 
 Description of the arguments:
@@ -57,7 +57,8 @@ Description of the arguments:
 - /path/to/dataset : The relative or absolute path to the file containing time series
 - k : Number of clusters
 - flag: Whether the first column of the specified dataset is a label. If the first column is not a label, set it to 1, otherwise set it to 0. The first column of UCR database is a label, while the first column of UCR and UAE databases is not a label
-- Example: `./test -d 0 ../data/Part_of_HandOutlines 2 0`
+- init_chose: When the value is 0, it represents random initialization of cluster indices. When the value is 1, it represents random initialization of cluster centers.
+- Example: `./test -d 0 ../data/Part_of_HandOutlines 2 0 0`
 
 ## Times-C CPU
 ### Execution
@@ -66,7 +67,7 @@ cd Code/test
 ```
 
 ```
-python test_timesC.py /path/to/dataset k flag init_chose
+python test_timesC.py /path/to/dataset k flag 
 ```
 
 Description of the arguments:
@@ -74,7 +75,7 @@ Description of the arguments:
 - /path/to/dataset : The relative or absolute path to the file containing time series(Suggest using absolute paths)
 - k : Number of clusters
 - flag: Whether the first column of the specified dataset is a label. If the first column is not a label, set it to 1, otherwise set it to 0. The first column of UCR database is a label, while the first column of UCR and UAE databases is not a label
-- init_chose: When the value is 0, it represents random initialization of cluster indices. When the value is 1, it represents random initialization of cluster centers.
+
 
 # Publication
 
